@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    .formula {
+      font-weight: bold;
+      color: #000;
+    }
+    .name {
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 4px;
+    }
+    td {
+      min-width: 120px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Ion/Radical</th>
+        <th>S²⁻</th>
+        <th>NO₃¹⁻</th>
+        <th>OH¹⁻</th>
+        <th>HSO₄¹⁻</th>
+        <th>O²⁻</th>
+        <th>H¹⁻</th>
+        <th>PO₄³⁻</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>H⁺</td>
+        <td>
+          <div class="formula">H₂S</div>
+          <div class="name">Ácido sulfhídrico</div>
+        </td>
+        <td>
+          <div class="formula">HNO₃</div>
+          <div class="name">Ácido nítrico</div>
+        </td>
+        <td>
+          <div class="formula">H₂O</div>
+          <div class="name">Agua</div>
+        </td>
+        <td>
+          <div class="formula">H₂SO₄</div>
+          <div class="name">Ácido sulfúrico</div>
+        </td>
+        <td>
+          <div class="formula">H₂O</div>
+          <div class="name">Agua</div>
+        </td>
+        <td>
+          <div class="formula">H₂</div>
+          <div class="name">Hidrógeno molecular</div>
+        </td>
+        <td>
+          <div class="formula">H₃PO₄</div>
+          <div class="name">Ácido fosfórico</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Na⁺</td>
+        <td>
+          <div class="formula">Na₂S</div>
+          <div class="name">Sulfuro de sodio</div>
+        </td>
+        <td>
+          <div class="formula">NaNO₃</div>
+          <div class="name">Nitrato de sodio</div>
+        </td>
+        <td>
+          <div class="formula">NaOH</div>
+          <div class="name">Hidróxido de sodio</div>
+        </td>
+        <td>
+          <div class="formula">NaHSO₄</div>
+          <div class="name">Hidrogenosulfato de sodio</div>
+        </td>
+        <td>
+          <div class="formula">Na₂O</div>
+          <div class="name">Óxido de sodio</div>
+        </td>
+        <td>
+          <div class="formula">NaH</div>
+          <div class="name">Hidruro de sodio</div>
+        </td>
+        <td>
+          <div class="formula">Na₃PO₄</div>
+          <div class="name">Fosfato de sodio</div>
+        </td>
+      </tr>
+      <tr>
+        <td>NH₄⁺</td>
+        <td>
+          <div class="formula">(NH₄)₂S</div>
+          <div class="name">Sulfuro de amonio</div>
+        </td>
+        <td>
+          <div class="formula">NH₄NO₃</div>
+          <div class="name">Nitrato de amonio</div>
+        </td>
+        <td>
+          <div class="formula">NH₄OH</div>
+          <div class="name">Hidróxido de amonio</div>
+        </td>
+        <td>
+          <div class="formula">NH₄HSO₄</div>
+          <div class="name">Hidrogenosulfato de amonio</div>
+        </td>
+        <td>
+          <div class="formula">(NH₄)₂O</div>
+          <div class="name">Óxido de amonio</div>
+        </td>
+        <td>
+          <div class="formula">NH₄H</div>
+          <div class="name">Hidruro de amonio</div>
+        </td>
+        <td>
+          <div class="formula">(NH₄)₃PO₄</div>
+          <div class="name">Fosfato de amonio</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Ca²⁺</td>
+        <td>
+          <div class="formula">CaS</div>
+          <div class="name">Sulfuro de calcio</div>
+        </td>
+        <td>
+          <div class="formula">Ca(NO₃)₂</div>
+          <div class="name">Nitrato de calcio</div>
+        </td>
+        <td>
+          <div class="formula">Ca(OH)₂</div>
+          <div class="name">Hidróxido de calcio</div>
+        </td>
+        <td>
+          <div class="formula">Ca(HSO₄)₂</div>
+          <div class="name">Hidrogenosulfato de calcio</div>
+        </td>
+        <td>
+          <div class="formula">CaO</div>
+          <div class="name">Óxido de calcio</div>
+        </td>
+        <td>
+          <div class="formula">CaH₂</div>
+          <div class="name">Hidruro de calcio</div>
+        </td>
+        <td>
+          <div class="formula">Ca₃(PO₄)₂</div>
+          <div class="name">Fosfato de calcio</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Fe²⁺</td>
+        <td>
+          <div class="formula">FeS</div>
+          <div class="name">Sulfuro de hierro (II)</div>
+        </td>
+        <td>
+          <div class="formula">Fe(NO₃)₂</div>
+          <div class="name">Nitrato de hierro (II)</div>
+        </td>
+        <td>
+          <div class="formula">Fe(OH)₂</div>
+          <div class="name">Hidróxido de hierro (II)</div>
+        </td>
+        <td>
+          <div class="formula">Fe(HSO₄)₂</div>
+          <div class="name">Hidrogenosulfato de hierro (II)</div>
+        </td>
+        <td>
+          <div class="formula">FeO</div>
+          <div class="name">Óxido de hierro (II)</div>
+        </td>
+        <td>
+          <div class="formula">FeH₂</div>
+          <div class="name">Hidruro de hierro (II)</div>
+        </td>
+        <td>
+          <div class="formula">Fe₃(PO₄)₂</div>
+          <div class="name">Fosfato de hierro (II)</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Cd²⁺</td>
+        <td>
+          <div class="formula">CdS</div>
+          <div class="name">Sulfuro de cadmio</div>
+        </td>
+        <td>
+          <div class="formula">Cd(NO₃)₂</div>
+          <div class="name">Nitrato de cadmio</div>
+        </td>
+        <td>
+          <div class="formula">Cd(OH)₂</div>
+          <div class="name">Hidróxido de cadmio</div>
+        </td>
+        <td>
+          <div class="formula">Cd(HSO₄)₂</div>
+          <div class="name">Hidrogenosulfato de cadmio</div>
+        </td>
+        <td>
+          <div class="formula">CdO</div>
+          <div class="name">Óxido de cadmio</div>
+        </td>
+        <td>
+          <div class="formula">CdH₂</div>
+          <div class="name">Hidruro de cadmio</div>
+        </td>
+        <td>
+          <div class="formula">Cd₃(PO₄)₂</div>
+          <div class="name">Fosfato de cadmio</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Fe³⁺</td>
+        <td>
+          <div class="formula">Fe₂S₃</div>
+          <div class="name">Sulfuro de hierro (III)</div>
+        </td>
+        <td>
+          <div class="formula">Fe(NO₃)₃</div>
+          <div class="name">Nitrato de hierro (III)</div>
+        </td>
+        <td>
+          <div class="formula">Fe(OH)₃</div>
+          <div class="name">Hidróxido de hierro (III)</div>
+        </td>
+        <td>
+          <div class="formula">Fe(HSO₄)₃</div>
+          <div class="name">Hidrogenosulfato de hierro (III)</div>
+        </td>
+        <td>
+          <div class="formula">Fe₂O₃</div>
+          <div class="name">Óxido de hierro (III)</div>
+        </td>
+        <td>
+          <div class="formula">FeH₃</div>
+          <div class="name">Hidruro de hierro (III)</div>
+        </td>
+        <td>
+          <div class="formula">FePO₄</div>
+          <div class="name">Fosfato de hierro (III)</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Al³⁺</td>
+        <td>
+          <div class="formula">Al₂S₃</div>
+          <div class="name">Sulfuro de aluminio</div>
+        </td>
+        <td>
+          <div class="formula">Al(NO₃)₃</div>
+          <div class="name">Nitrato de aluminio</div>
+        </td>
+        <td>
+          <div class="formula">Al(OH)₃</div>
+          <div class="name">Hidróxido de aluminio</div>
+        </td>
+        <td>
+          <div class="formula">Al(HSO₄)₃</div>
+          <div class="name">Hidrogenosulfato de aluminio</div>
+        </td>
+        <td>
+          <div class="formula">Al₂O₃</div>
+          <div class="name">Óxido de aluminio</div>
+        </td>
+        <td>
+          <div class="formula">AlH₃</div>
+          <div class="name">Hidruro de aluminio</div>
+        </td>
+        <td>
+          <div class="formula">AlPO₄</div>
+          <div class="name">Fosfato de aluminio</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Pt⁴⁺</td>
+        <td>
+          <div class="formula">PtS₂</div>
+          <div class="name">Sulfuro de platino (IV)</div>
+        </td>
+        <td>
+          <div class="formula">Pt(NO₃)₄</div>
+          <div class="name">Nitrato de platino (IV)</div>
+        </td>
+        <td>
+          <div class="formula">Pt(OH)₄</div>
+          <div class="name">Hidróxido de platino (IV)</div>
+        </td>
+        <td>
+          <div class="formula">Pt(HSO₄)₄</div>
+          <div class="name">Hidrogenosulfato de platino (IV)</div>
+        </td>
+        <td>
+          <div class="formula">PtO₂</div>
+          <div class="name">Óxido de platino (IV)</div>
+        </td>
+        <td>
+          <div class="formula">PtH₄</div>
+          <div class="name">Hidruro de platino (IV)</div>
+        </td>
+        <td>
+          <div class="formula">Pt₃(PO₄)₄</div>
+          <div class="name">Fosfato de platino (IV)</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
